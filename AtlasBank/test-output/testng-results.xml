@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[tc001 executed]]>
+    </line>
+    <line>
+      <![CDATA[tc002 executed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="49" started-at="2019-06-30T06:03:32Z" finished-at="2019-06-30T06:03:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="49" started-at="2019-06-30T06:03:32Z" finished-at="2019-06-30T06:03:32Z">
+      <class name="p1.MyTest1">
+        <test-method status="PASS" signature="tc001()[pri:0, instance:p1.MyTest1@4c70fda8]" name="tc001" duration-ms="21" started-at="2019-06-30T11:33:32Z" finished-at="2019-06-30T11:33:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[tc001 executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc001 -->
+        <test-method status="PASS" signature="tc002()[pri:0, instance:p1.MyTest1@4c70fda8]" name="tc002" duration-ms="1" started-at="2019-06-30T11:33:32Z" finished-at="2019-06-30T11:33:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[tc002 executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc002 -->
+      </class> <!-- p1.MyTest1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
